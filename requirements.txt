@@ -1,0 +1,9 @@
+langchain
+streamlit
+huggingface-hub
+sentence_transformers
+pinecone-client
+python-dotenv
+google-generativeai
+faiss-cpu
+pypdf
