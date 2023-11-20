@@ -16,7 +16,7 @@ copy . .
 EXPOSE 8501
 
 # Define environment variable
-env_file = .env
+ENV .env
 
 # Run app.py when the container launches
 CMD ["streamlit","run, "frontend.py"]
