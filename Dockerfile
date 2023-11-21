@@ -16,7 +16,7 @@ copy . .
 EXPOSE 8501
 
 # Define environment variable
-ENV .env
+ENV GOOGLE_API_KEY = ${GOOGLE_API_KEY}
 
 # Run app.py when the container launches
 CMD ["streamlit","run, "frontend.py"]
